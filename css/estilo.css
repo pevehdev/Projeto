@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*font-family: 'Press Start 2P', cursive;*/
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+  font-size: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 100%;
+}
+/*
+****Layout****
+*/
+#area-cabecalho{
+  background-color: #000000;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 5px solid rgb(207, 205, 205);
+  display: block;
+  
+}
+#mini-logo{
+  margin-left: 200;
+/*border: 4px solid red;*/
+position: absolute; /*Posição absoluta para poder ficar solto  e não mexer na posição do #area-logo e #area-menu*/
+}
+#mini-logo2{
+  margin-left: 250;
+  /*border: 4px solid red;*/
+  position: absolute; /*Posição absoluta para poder ficar solto  e não mexer na posição do #area-logo e #area-menu*/
+}
+#mini-logo img {
+  float:left;
+  width: 50px;
+  height: 50px;
+  margin-top: 0;
+  
+}
+#mini-logo2 img {
+  float:left;
+  width: 60px;
+  height: 60px;
+  margin-top: -5;
+  
+}
+
+ #area-menu{
+  padding: 20px;
+  font-size: 20px;
+  /*border: 1px solid red;*/
+  position: relative;
+ 
+
+}
+#area-menu a{
+margin-left: 50px;
+}
+/*************LAYOUT DA PAGINA QUEM SOMOS**************/
+#titulo{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#area-principal{
+  padding: 15px;
+   width: 920px;
+   margin: 90 auto;
+   /*border: 5px solid black;*/
+ }
+ 
+ #area{
+   width: 400px;
+   float: left;
+  /*border: 5px solid;*/
+ }
+ .area-texto{
+   width: 500px;
+   float: left;
+   /*border: 5px solid;*/
+ }
+
+ 
+  
+  #area-imagem img{
+    border-radius: 50%;
+  }
+  .area-texto{
+    color: #fff;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  
+  /*************LAYOUT DA PAGINA CONTATO***************/
+  #principal2{
+    width: 1000px;
+    /*border: 5px solid red;*/
+    margin: 100 auto;
+  }
+  #titulo3{
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+fieldset{
+border: 0%;
+}
+
+
+input,textarea,button{
+border-radius: 5px;;
+}
+.campo{
+  margin-bottom: 1em;
+}
+.campo label{
+  margin-bottom: 0.2em;
+  color: #ffffff;
+  display: block; /*Organizar os campos do formularios em bloco para que fique um em baixo do outro do mesmo tamanho e alinhados */
+  
+}
+.campo .botao{
+  display: block;
+  margin-top: 10px;
+}
+
+fieldset, .campo{
+  margin: 16px;
+}
+.campo input:focus
+.campo textarea:focus{
+  background: #fff;
+}
+.botao{
+font-size: 1.2em;
+background: #545357;
+color: white;
+padding: 0.2em 0.6em;
+box-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+transform: translate(-50% -50%);
+}
+.botao:hover{
+  background: #ccbbff;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow:none;
+  cursor:pointer;
+}
+
+
+  /************LAYOUT DA  Pagina Interesses***********/
+  #principal{
+    width: 100%;
+    /*border: 5px solid red;*/
+    margin: 60 auto;
+    
+    }
+  #titulo2{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    margin-top: 30px;
+  }
+  .bloco-imagem1 {
+    
+    width: 300px;
+    /*border: 2px solid red;*/
+    float: left;
+    margin-left: 200;
+       
+    }
+  .bloco-imagem1 .imagem1{
+    
+    border-radius: 50%;
+    width: 200;
+    height: 200;
+    display: block;
+    margin: 0px auto;
+    padding: 40px;
+    /*border: 2px solid greenyellow;*/
+    
+  }
+  .bloco-imagem1 h1{
+    text-align: center;
+  }
+  .subtitulo{
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+  }
+  .texto{
+    color: #fff;
+  }
+  /***************LAYOUT DO RODAPÉ***********/
+footer{
+ background-color: #3d4949;
+ border-top: 5px solid rgb(207, 205, 205);
+ position: fixed;
+ bottom: 0;
+ color: #fff;
+ font-size: 10px;
+ width: 100%;
+ height: 100px;
+ text-align: center;
+ line-height: 100px;
+ 
+ 
+}
+
+
+.area-imagem{
+  padding: 20px;
+  margin-bottom: 20px;
+ /* background-color: white;*/
+}
+#clear{
+  clear: both;
+}
+
+
+/*
+****Formatações do menu****
+*/
+a{
+  text-decoration: none;
+}
+a:link,  a:visited{
+  color: #f7b600;
+  padding: 8px 12px;
+
+}
+a:hover{
+  color:#f7b600;
+  text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+  color: #fff;
+  padding: 8px 12px;
+
+}
+#area-cabecalho a:hover{
+  color: white;
+  background: rgb(26, 25, 25);
+  border-radius: 22px;
+  text-decoration: none;
+}
+
+
+
