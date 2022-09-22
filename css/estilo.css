@@ -191,6 +191,7 @@ transform: translate(-50% -50%);
   .subtitulo{
     font-family: 'Press Start 2P', cursive;
     color: #fff;
+    text-align: center;
   }
   .texto{
     color: #fff;
